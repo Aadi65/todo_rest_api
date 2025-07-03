@@ -3,42 +3,26 @@ This Flutter app is a simple yet functional Todo CRUD application using the crud
 
 🚀 Features
 ✅ Add new todo items
-
 ✏️ Edit existing todos
-
 ❌ Delete todo items
-
 📡 Fetch todos from a live REST API
-
 💜 Clean and responsive UI using Flutter Material components
-
 📲 Compatible with Android & iOS
 
 🔧 Tech Stack
 Frontend: Flutter (Dart)
-
 Backend: crudcrud.com (temporary REST API for testing)
-
 State Management: Stateful Widgets
-
 HTTP Client: http package
 
 📸 Screenshots
-(Add screenshots of your Home screen, Add/Edit screen, etc.)
+![IMG_0252](https://github.com/user-attachments/assets/19cd95f6-77da-4859-90c7-f9928e5c1ec8)
+![IMG_0251](https://github.com/user-attachments/assets/32f6321a-7a70-4690-a5e9-c966169d2f96)
 
-📂 Project Structure
-bash
-Copy
-Edit
-lib/
-├── main.dart
-├── screens/
-│   ├── homescreen.dart       # Displays all todos
-│   └── addpageScreen.dart    # Add/Edit todo page
+
 📬 API Endpoint
 You can get your own temporary API key at https://crudcrud.com
 Example endpoint used in this app:
-
 bash
 Copy
 Edit
@@ -51,10 +35,8 @@ git clone https://github.com/your-username/todo_rest_api.git
 
 Install dependencies
 flutter pub get
-
 Update API Key
 Replace the API key in the code with your own from crudcrud.com
-
 Run the app
 flutter run
 
